@@ -1,0 +1,30 @@
+# Đưa website lên mạng với Git-Github page
+ +Chia sẻ dự án HTML, CSS.... với người khác
+ +Đưa link dự án vào CV tuyển dụng   
+
+# Chuẩn bị
+1. Cài đặt Git
+2. Tạo tài khoản Github
+ 
+   ***Có 2 khái niệm riêng biệt là git và Github
+      +Git cần phải cài đặt trên máy tính để quản lý dự án của chúng ta theo từng phiên bản khác nhau.
+      +Github là một gitsever. Là nơi để chứa các repository remote.
+   ***Kiểm tra git đã được cài đặt chưa: git --version
+# Up dự án lên mạng
+1. Đưa dự án vào vscode
+
+2. Chạy terminal khởi tạo một local repository
+>git init
+
+3. Lưu code dự án vào local repo tại git
+>git add
+>git commit -m 'first commit'
+
+4. Tạo repository trên github
+
+5. Đẩy dự án từ git lên github
+
+>git remote add <alias> https://name-of-the-repository-link.
+>git push <remot> <branch-name>
+
+6. Chạy giao diện dự án trên github page
