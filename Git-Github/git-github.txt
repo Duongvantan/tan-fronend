@@ -14,11 +14,11 @@
 # Up dự án lên mạng
 1. Đưa dự án vào vscode
 
-2. Chạy terminal khởi tạo một local repository
+2. Chạy terminal khởi tạo một local repository (Mới ở trên git)
 >git init
 
-3. Lưu code dự án vào local repo tại git
->git add
+3. Lưu code dự án vào local repo tại git (Mới ở trên git)
+>git add .
 >git commit -m 'first commit'
 
 4. Tạo repository trên github
@@ -26,6 +26,6 @@
 5. Đẩy dự án từ git lên github
 
 >git remote add <alias> https://name-of-the-repository-link.
->git push <remot> <branch-name>
+>git push <remote> <branch-name>
 
 6. Chạy giao diện dự án trên github page
