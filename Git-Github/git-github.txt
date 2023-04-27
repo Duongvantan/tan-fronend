@@ -10,6 +10,7 @@
       +Git cần phải cài đặt trên máy tính để quản lý dự án của chúng ta theo từng phiên bản khác nhau.
       +Github là một gitsever. Là nơi để chứa các repository remote.
    ***Kiểm tra git đã được cài đặt chưa: git --version
+   ***Xóa màn hình hình trống dễ nhìn: clear
 # Up dự án lên mạng
 1. Đưa dự án vào vscode
 
