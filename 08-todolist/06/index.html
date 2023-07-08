@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Todos</h1>
+    <div>
+        <h2>Search & Filter</h2>
+        <input type="text" placeholder="Search name...." id="search">
+    </div>
+    <div>
+        <h2>Todo Form</h2>
+        <input type="text" placeholder="name" id="name">
+        <select id="level">
+            <option value="3">High</option>
+            <option value="2">Medium</option>
+            <option value="1">Small</option>
+        </select>
+        <button type="button" id="save">Save</button>
+    </div>
+    <div>
+        <h2>Todo List</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Level</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="todo-list">
+                <!-- <tr>
+                    <td>xxxxxx</td>
+                    <td>todo name</td>
+                    <td>1</td>
+                    <td>
+                        <button type="button" id="delete">Delete</button>
+                        <button type="button" id="delete">Delete</button>
+                    </td>
+                </tr> -->
+            </tbody>
+        </table>
+    </div>
+    <script src="./06.js"></script>
+</body>
+
+</html>

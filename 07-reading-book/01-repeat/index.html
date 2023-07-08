@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type=text/css>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #content{
+            border: 2px solid red;
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+        form{
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .setting{
+            display: flex;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Reading Book</h1>
+    <form action="https://www.google.com/">
+        <input type="email" name="email" id="email">
+        <input type="password" name="password" id="password">
+        <button>Save</button>
+    </form>
+    <div class="setting">
+        <div>
+            <button id="btn-increase">Tăng size chữ</button>
+            <button id="btn-decrease">Giảm size chữ</button>
+        </div>
+        <div>
+            <button class="btn-background" data-value="yellow">Vàng</button>
+            <button class="btn-background" data-value="white">Trắng</button>
+            <button class="btn-background" data-value="green">Xanh</button>
+            <button class="btn-background" data-value="red">Đỏ</button>
+        </div>
+        <select id="slb-line-height">
+            <option value="1">Nhỏ</option>
+            <option value="2">Vừa</option>
+            <option value="3">Lớn</option>
+        </select>
+        <select id="slb-text-align">
+            <option value="left">Trái</option>
+            <option value="right">Phải</option>
+            <option value="center">Giữa</option>
+            <option value="justify">Đều</option>
+        </select>
+    </div>
+    <div id="content">
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit rem laudantium repudiandae voluptates, possimus suscipit quae ipsa cupiditate perspiciatis. In id doloribus natus? Error, magni iste adipisci quaerat, fugiat exercitationem eos corporis ipsa doloribus fugit veniam cum hic aut unde dolorem facilis rerum ullam fuga est animi. Perspiciatis voluptatum facere doloremque saepe magnam, commodi repellat inventore laboriosam pariatur quisquam, mollitia possimus eius. Vero, expedita neque minima aliquam quibusdam laboriosam? Enim delectus corporis a eos porro minus? Aut, blanditiis doloremque optio in nostrum nemo, accusamus labore ipsum magni exercitationem sequi, mollitia hic incidunt consequuntur quisquam. Architecto quaerat atque voluptas, esse doloremque veniam, suscipit neque repellendus cum tenetur dolores quidem dolor eaque odio modi nihil! Atque nemo voluptate et distinctio ducimus in praesentium ad? Ullam beatae esse officia animi, dolores atque possimus vel qui asperiores quidem mollitia molestiae aliquid, autem officiis et velit alias quibusdam dolor architecto maiores iste aut temporibus porro. Officia aliquid tenetur praesentium saepe sapiente labore. Provident praesentium quos ex magni nobis voluptas ratione tenetur molestias unde officiis eum odio distinctio accusantium facere omnis voluptate, vel sed nostrum itaque eaque sit repellendus exercitationem! Hic, recusandae totam consectetur consequuntur consequatur iure delectus incidunt saepe ipsa cumque? Voluptate commodi harum reprehenderit?       
+    </div>
+    <script src="./01.js"></script>
+</body>
+</html>
